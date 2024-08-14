@@ -1,0 +1,95 @@
+/* Updated CSS */
+.projects-container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-0.35rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.projects-header {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.projects-header span {
+  color: teal;
+}
+
+.project-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.project-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.stack {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.project-links {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+  
+}
+
+
+.project-links a:hover,
+.project-links a:active{
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+    transform: scale(1.05);
+    padding: 10px;
+}
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,64 @@
+{
+    "ProjectsData": [
+
+
+
+        {
+            "id": 1,
+            "title": "Vue Repo Fetcher",
+            "image": "/assets/Repo-Fetcher.jpeg",
+            "description": "This is a Github-Repo-Fetcher that uses the Github API to fetch repositories, has a search and filter functionality and includes pagination.",
+            "stack": " Vue.js, HTML, CSS (scoped styles), GitHub API",
+            "link": "https://mjs-github-repo-fetcher.netlify.app/",
+            "github": "https://github.com/Majeedatwahab/Github-Repo-Fetcher"
+
+        },
+       
+
+        {
+            "id": 2,
+            "title": "Furniro E-commerce Website",
+            "image": "/assets/furniro-website.png",
+            "description": "A fully functional ecommerce website for a furniture store.",
+            "stack": "React.js, TailwindCSS, Supabase.",
+            "link": "https://furniro-ecommerce-website.vercel.app/",
+            "github": "https://github.com/Majeedatwahab/Furniro-Ecommerce-Website"
+
+        },
+        {
+            "id": 3,
+            "title": "Chatter: Blogging Website",
+            "image": "/assets/chatter-maeuve.jpeg",
+            "description": "Welcome to Chatter, a platform where your voice is amplified. Dive into a community-driven space for sharing and exploring meaningful content. Join us in creating a place where every word matters.",
+            "stack": "Next.js, Typescript, TailwindCSS, firebase.",
+            "link": "https://chatter-mauve-six.vercel.app/",
+            "github": "https://github.com/Majeedatwahab/chatter"
+
+        },
+        
+       
+        {
+            "id": 4,
+            "title": "Trafalgar Landing Page",
+            "image": "/assets/trafalgar-website.png",
+            "description": "This project is a modern and responsive landing page created using Vue.js and pure CSS.",
+            "stack": "Vue.js, Vanilla CSS",
+            "link": "https://vue-trafalgar-landing-page.netlify.app/",
+            "github": "https://github.com/Majeedatwahab/Trafalgar-Landing-Page"
+
+        },
+        {
+            "id": 5,
+            "title": "Simple Timezone Converter",
+            "image": "/assets/Timezone-converter.jpeg",
+            "description": "This Web App displays the current time for up to 10 different time zones and even displays the local time of the user.",
+            "stack": "HTML, CSS and JavaScript",
+            "link": "https://display-current-time.netlify.app/",
+            "github": "https://github.com/Majeedatwahab/Timezone-Converter"
+
+        }
+        
+
+       
+    ]
+}

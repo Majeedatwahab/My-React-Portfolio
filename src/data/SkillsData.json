@@ -1,0 +1,107 @@
+{
+    "SkillsData": [
+        {
+            "id": "1",
+            "title": "HTML5",
+            "icon": "/assets/icons8-html5.svg",
+            "alt": "html-logo",
+            "className":"icon"
+        },
+
+        {
+            "id": "2",
+            "title": "CSS3",
+            "icon": "/assets/icons8-css3.svg",
+            "alt": "css-logo",
+             "className":"icon"
+        },
+
+        {
+            "id": "3",
+            "title": "JavaScript",
+            "icon": "/assets/icons8-javascript.svg",
+            "alt": "javascript-logo",
+             "className":"icon"
+        },
+
+        {
+            "id": "4",
+            "title": "Git",
+            "icon": "/assets/icons8-git.svg",
+            "alt": "git-logo",
+             "className":"icon"
+        },
+
+        {
+            "id": "5",
+            "title": "Github",
+            "icon": "/assets/icons8-github.svg",
+            "alt": "github-logo",
+            "className":"icon"
+        },
+   
+
+
+    
+        
+            {
+                "id": "6",
+                "title": "React.js",
+                "icon": "/assets/icons8-react.svg",
+                "alt": "react.js-logo",
+                 "className":"icon"
+            },
+    
+            {
+                "id": "7",
+                "title": "Node.js",
+                "icon": "/assets/icons8-nodejs.svg",
+                "alt": "node.js-logo",
+                 "className":"icon"
+            },
+    
+            {
+                "id": "8",
+                "title": "TailwindCSS",
+                "icon": "/assets/icons8-tailwindcss.svg",
+                "alt": "tailwindcss-logo",
+                 "className":"icon"
+            },
+    
+            {
+                "id": "9",
+                "title": "Chakra UI",
+                "icon": "/assets/icons8-chakra-ui.svg",
+                "alt": "chakra-ui-logo",
+                 "className":"icon"
+            },
+    
+            {
+                "id": "10",
+                "title": "Vue.js",
+                "icon": "/assets/icons8-vue-js.svg",
+                "alt": "vue-js-logo",
+                 "className":"icon"
+            },
+    
+            {
+                "id": "11",
+                "title": "TypeScript",
+                "icon": "/assets/icons8-typescript.svg",
+                "alt": "typescript-logo",
+                 "className":"icon"
+            },
+
+            {
+                "id": "12",
+                "title": "Next.js",
+                "icon": "/assets/icons8-nextjs.svg",
+                "alt": "next.js-logo",
+                 "className":"icon"
+            }
+        
+        
+    ]
+
+    
+}

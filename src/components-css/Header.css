@@ -1,0 +1,174 @@
+header{
+   
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+ 
+   
+}
+
+.navigation{
+   display: flex;
+   gap: 15px;
+}
+
+.navigation a{
+    text-decoration: none;
+   color: black;
+   font-weight: bold;
+   padding: 10px 15px;
+}
+.navigation a:hover,
+.navigation a:active{
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    transform: scale(1.05);
+}
+
+.btn-container{
+    display: flex;
+}
+.resume-btn{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.resume-btn:hover{
+    background-color: teal;
+    transform: scale(1.05);
+}
+.logo .mj{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+.mj:hover{
+    color: teal;
+  
+   
+}
+#menu-icon{
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  margin: 1rem;
+  display: none;
+  
+}
+.dropdown-menu{
+  display: none;
+  position: fixed;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: black;
+  margin-top: 19px;
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+}
+
+.dropdown-menu a{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0,3s ease;
+  text-decoration: none;
+
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a.active{
+  background-color: teal; 
+}
+
+.dropdown-menu.open{
+  height: 240px;
+
+}
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navigation {
+      display: none;
+    }
+  
+    
+    #menu-icon{
+      display: block;
+  }
+
+  .dropdown-menu{
+      display: block;
+  }
+    .btn-container {
+      display: none;
+    }
+    .home {
+      flex-direction: column;
+      padding: 0 5%;
+    }
+  
+    .home-content-pic {
+      display: none;
+      width: 80%;
+      margin: 20px 0;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+   
+  }
+
+  @media screen and (max-width: 480px) {
+    .dropdown-menu{
+        left: 2rem;
+        width: unset;
+    }
+  
+    section {
+      padding: 5rem 5% 2rem;
+    }
+  
+    .home-content-pic {
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .social-icon {
+      width: 35px;
+      height: 35px;
+    }
+   
+
+}
+
+
