@@ -28,7 +28,7 @@ return(
         </div>
     <div className="btn-container">
         <a
-          href="https://drive.google.com/file/d/1IFBsYL8bbn90wNW2abt5EDsj9NPOl6Sc/view?usp=sharing"
+         href='https://drive.google.com/file/d/1IFBsYL8bbn90wNW2abt5EDsj9NPOl6Sc/view?usp=drive_link'
           className="resume-btn"
           target="_blank"
         >
