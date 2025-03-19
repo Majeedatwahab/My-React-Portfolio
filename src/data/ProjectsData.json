@@ -4,15 +4,15 @@
 
 
         {
-            "id": 1,
-            "title": "Vue Repo Fetcher",
-            "image": "/assets/Repo-Fetcher.jpeg",
-            "description": "This is a Github-Repo-Fetcher that uses the Github API to fetch repositories, has a search and filter functionality and includes pagination.",
-            "stack": " Vue.js, HTML, CSS (scoped styles), GitHub API",
-            "link": "https://mjs-github-repo-fetcher.netlify.app/",
-            "github": "https://github.com/Majeedatwahab/Github-Repo-Fetcher"
+    "id": 1,
+    "title": "AI Learning Companion",
+    "image": "/assets/ai-learning-companion.png",
+    "description": "An AI-powered learning assistant designed to provide interactive and personalized learning experiences. It features dynamically generated learning cards, AI-driven responses, and progress tracking.",
+    "stack": "Next.js, React, TypeScript, Tailwind CSS, Nextjs AI Chatbot, Gemini AI API",
+    "link": "https://your-project-live-link.com/",
+    "github": "https://github.com/Majeedatwahab/ai-learning-companion"
+},
 
-        },
        
 
         {
@@ -37,16 +37,16 @@
         },
         
        
-        {
-            "id": 4,
-            "title": "Trafalgar Landing Page",
-            "image": "/assets/trafalgar-website.png",
-            "description": "This project is a modern and responsive landing page created using Vue.js and pure CSS.",
-            "stack": "Vue.js, Vanilla CSS",
-            "link": "https://vue-trafalgar-landing-page.netlify.app/",
-            "github": "https://github.com/Majeedatwahab/Trafalgar-Landing-Page"
+       {
+    "id": 4,
+    "title": "Bean-Scene Coffee Landing Page",
+    "image": "/assets/cafe-landing-page.png",
+    "description": "A beautifully crafted and responsive coffee shop landing page designed to showcase premium coffee blends with a modern and inviting user interface.",
+    "stack": "React.js, Tailwind CSS",
+    "link": "https://your-coffee-landing-page-link.com/",
+    "github": "https://github.com/Majeedatwahab/coffee-landing-page"
+},
 
-        },
         {
             "id": 5,
             "title": "Simple Timezone Converter",

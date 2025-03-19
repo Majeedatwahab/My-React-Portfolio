@@ -8,7 +8,7 @@ return(
     </div>
     <div className="home-content">
       <h2>Hi, I'm Majeedat.</h2>
-      <p className='web'> A frontend web developer with experience in HTML, CSS, JavaScript, React, and Vue.js.</p>
+        <p className='web'> A frontend web developer with experience in HTML, CSS, JavaScript, React, and Next.js.</p>
       <div className="socials">
    <a href="https://twitter.com/majeedahwahab" target="_blank">
      <img

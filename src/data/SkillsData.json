@@ -76,16 +76,9 @@
                  "className":"icon"
             },
     
+        
             {
                 "id": "10",
-                "title": "Vue.js",
-                "icon": "/assets/icons8-vue-js.svg",
-                "alt": "vue-js-logo",
-                 "className":"icon"
-            },
-    
-            {
-                "id": "11",
                 "title": "TypeScript",
                 "icon": "/assets/icons8-typescript.svg",
                 "alt": "typescript-logo",
@@ -93,7 +86,7 @@
             },
 
             {
-                "id": "12",
+                "id": "11",
                 "title": "Next.js",
                 "icon": "/assets/icons8-nextjs.svg",
                 "alt": "next.js-logo",
